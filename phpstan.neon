@@ -1,0 +1,12 @@
+parameters:
+    level: 5
+    paths:
+        - src
+    excludePaths:
+        analyse:
+            - vendor/*
+    ignoreErrors:
+        - '#Variable property access on object#'
+        - '#Variable property access on mixed#'
+    inferPrivatePropertyTypeFromConstructor: true
+
